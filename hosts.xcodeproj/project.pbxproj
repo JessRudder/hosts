@@ -46,6 +46,7 @@
 		4C1459C81BD1460A00982606 /* hostsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hostsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1459CC1BD1460A00982606 /* hostsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hostsUITests.m; sourceTree = "<group>"; };
 		4C1459CE1BD1460A00982606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1459DC1BD1831000982606 /* installHosts.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = installHosts.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 				4C1459B51BD1460A00982606 /* MainMenu.xib */,
 				4C1459B81BD1460A00982606 /* Info.plist */,
 				4C1459B01BD1460A00982606 /* Supporting Files */,
+				4C1459DC1BD1831000982606 /* installHosts.sh */,
 			);
 			path = hosts;
 			sourceTree = "<group>";
@@ -483,6 +485,7 @@
 				4C1459D31BD1460A00982606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C1459D41BD1460A00982606 /* Build configuration list for PBXNativeTarget "hostsTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +494,7 @@
 				4C1459D61BD1460A00982606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C1459D71BD1460A00982606 /* Build configuration list for PBXNativeTarget "hostsUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +503,7 @@
 				4C1459D91BD1460A00982606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
