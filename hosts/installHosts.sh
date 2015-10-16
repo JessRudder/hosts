@@ -8,6 +8,16 @@ if [ -f "/etc/hosts" ]; then
   # if hosts.bak does not exist, save current hosts as hosts.bak
   if [[ ! -e "/etc/hosts.bak" ]]; then
     mv /etc/hosts /etc/hosts.bak
+
+  # if hosts.bak does exist, save hosts as hosts.bak.n
+  else
+    num=0
+
+    while [[ -e "/etc/hosts.bak.$num" ]]; do
+      (( num++ ))
+    done
+
+    mv /etc/hosts "/etc/hosts.bak.$num"
   fi
 fi
 
