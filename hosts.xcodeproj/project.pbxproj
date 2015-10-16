@@ -14,7 +14,7 @@
 		4C1459C21BD1460A00982606 /* hostsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1459C11BD1460A00982606 /* hostsTests.m */; };
 		4C1459CD1BD1460A00982606 /* hostsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1459CC1BD1460A00982606 /* hostsUITests.m */; };
 		4C1459DE1BD18D6600982606 /* hosts in Resources */ = {isa = PBXBuildFile; fileRef = 4C1459DD1BD18D6600982606 /* hosts */; settings = {ASSET_TAGS = (); }; };
-		4C1459E01BD18EFE00982606 /* installHosts.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4C1459DF1BD18EFE00982606 /* installHosts.sh */; settings = {ASSET_TAGS = (); }; };
+		4C1459E21BD1A8E200982606 /* installHosts.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4C1459E11BD1A8E200982606 /* installHosts.sh */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,7 @@
 		4C1459CC1BD1460A00982606 /* hostsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hostsUITests.m; sourceTree = "<group>"; };
 		4C1459CE1BD1460A00982606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C1459DD1BD18D6600982606 /* hosts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hosts; sourceTree = "<group>"; };
-		4C1459DF1BD18EFE00982606 /* installHosts.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = installHosts.sh; path = ../../Desktop/installHosts.sh; sourceTree = "<group>"; };
+		4C1459E11BD1A8E200982606 /* installHosts.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = installHosts.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,6 @@
 		4C1459A11BD1460A00982606 = {
 			isa = PBXGroup;
 			children = (
-				4C1459DF1BD18EFE00982606 /* installHosts.sh */,
 				4C1459DD1BD18D6600982606 /* hosts */,
 				4C1459AC1BD1460A00982606 /* hosts */,
 				4C1459C01BD1460A00982606 /* hostsTests */,
@@ -102,6 +101,7 @@
 		4C1459AC1BD1460A00982606 /* hosts */ = {
 			isa = PBXGroup;
 			children = (
+				4C1459E11BD1A8E200982606 /* installHosts.sh */,
 				4C1459AD1BD1460A00982606 /* AppDelegate.h */,
 				4C1459AE1BD1460A00982606 /* AppDelegate.m */,
 				4C1459B31BD1460A00982606 /* Assets.xcassets */,
@@ -241,7 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C1459E01BD18EFE00982606 /* installHosts.sh in Resources */,
+				4C1459E21BD1A8E200982606 /* installHosts.sh in Resources */,
 				4C1459DE1BD18D6600982606 /* hosts in Resources */,
 				4C1459B41BD1460A00982606 /* Assets.xcassets in Resources */,
 				4C1459B71BD1460A00982606 /* MainMenu.xib in Resources */,
